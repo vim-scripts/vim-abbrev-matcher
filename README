@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5264
+
+Unlike "traditional" fuzzy search it matches by beginnings of words. For example, "fb" matches "foo_bar" but not "if_bar". Words considered are groups of alphabetic characters, groups of digits and "CamelCase" words. All other symbols, including underscore (_) and dash (-) are word separators.
+
+This allows faster narrowing of search results to a needed candidate, with less typing.
+
+More detailed README and recent version: https://github.com/sergei-dyshel/vim-abbrev-matcher
